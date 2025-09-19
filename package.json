@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "description": "Vue wrapper component for js-streaming (WebSocket/SSE/HTTP/Long-Polling/HLS/WebRTC).",
   "author": {
-    "name": "Vue Streaming Contributors"
+    "name": "Kerolos Zakaria",
+    "email": "kerolozakaria2@gmail.com",
+    "url": "https://keroloszakaria.surge.sh"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vue-streaming"
+    "url": "https://github.com/keroloszakaria/vue-streaming"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/vue-streaming/issues"
+    "url": "https://github.com/keroloszakaria/vue-streaming/issues"
   },
-  "homepage": "https://github.com/yourusername/vue-streaming#readme",
+  "homepage": "https://github.com/keroloszakaria/vue-streaming#readme",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -32,13 +34,16 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "prepublishOnly": "npm run build",
+    "deploy": "surge landing vue-streaming.surge.sh",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "peerDependencies": {
-    "vue": ">=3.3.0"
+    "vue": ">=3.3.0",
+    "js-streaming": ">=0.1.2"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "js-streaming": "^0.1.2",
     "tsup": "^8.5.0",
     "typescript": "^5.6.2",
     "vue": "^3.4.0"
