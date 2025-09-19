@@ -1,0 +1,64 @@
+{
+  "name": "vue-streaming",
+  "version": "0.1.0",
+  "description": "Vue wrapper component for js-streaming (WebSocket/SSE/HTTP/Long-Polling/HLS/WebRTC).",
+  "author": {
+    "name": "Vue Streaming Contributors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vue-streaming"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vue-streaming/issues"
+  },
+  "homepage": "https://github.com/yourusername/vue-streaming#readme",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "peerDependencies": {
+    "vue": ">=3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsup": "^8.5.0",
+    "typescript": "^5.6.2",
+    "vue": "^3.4.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue3",
+    "streaming",
+    "websocket",
+    "sse",
+    "server-sent-events",
+    "http-streaming",
+    "long-polling",
+    "hls",
+    "webrtc",
+    "media-player",
+    "video-player",
+    "vue-component",
+    "webrtc",
+    "http"
+  ]
+}
