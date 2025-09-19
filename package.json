@@ -1,6 +1,6 @@
 {
   "name": "vue-streaming",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Vue wrapper component for js-streaming (WebSocket/SSE/HTTP/Long-Polling/HLS/WebRTC).",
   "author": {
     "name": "Kerolos Zakaria",
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/keroloszakaria/vue-streaming/issues"
   },
-  "homepage": "https://github.com/keroloszakaria/vue-streaming#readme",
+  "homepage": "https://vue-streaming.surge.sh",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
